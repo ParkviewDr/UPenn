@@ -1,0 +1,235 @@
+
+
+
+<?php
+
+/*
+	Template Name: Upenn
+*/
+
+
+
+
+
+get_header();
+?>
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Poppins|Raleway" rel="stylesheet"> 
+
+<!-- 
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+
+-->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+    
+    
+    <style>
+ .top{
+            padding-top:20px;
+            font-size:50px;
+            background:#387CEE;
+            font-family: 'Raleway', sans-serif;
+            color:white;
+            text-align:center;
+        }
+        
+        
+        .outer{
+    
+  height:150px;
+  display: block;
+  position: relative;
+
+}
+
+.outer img {
+  
+  height: auto;
+}
+
+.outer .inner {
+  background: white;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 0;
+  transition: opacity .5s;
+}
+
+.outer .inner p {
+
+  color: black;
+  font-size:20px;
+  line-height: 10px;
+   font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
+
+
+.outer .inner {
+  opacity: .8;
+
+}
+
+
+
+
+
+ .intro {
+     
+     font-size:40px;
+     padding-top:50px;
+     font-family: 'Montserrat', sans-serif;
+     text-align:center;
+      letter-spacing:2px;
+     
+     
+ }
+ 
+ #inline {
+     font-style: italic;
+      font-size:50px;
+     padding-top:50px;
+      font-family: 'Poppins', sans-serif;
+     text-align:center;
+     
+ }
+ .about {
+     padding-top:100px;
+ }
+ 
+ .header1 {
+     padding-top:100px;
+     padding-bottom:100px;
+     font-family: 'Poppins', sans-serif;
+     font-size:50px;
+     
+ }
+</style>
+
+
+   <div class="container-fluid">
+<div class="outer">
+    
+    <img src="http://mmitchelldevelopment.com/banner-image.jpg" class="img-fluid" alt="Responsive image">
+
+ <div class="inner">
+<p style="display:inline-block; padding:70px 300px;">Some text!</p>
+<p style="display:inline-block; padding-right:300px;">Some text!</p>
+<p style="display:inline-block; padding-right:300px;">Some text!</p>
+</div> <!-- inner -->
+     </div> <!-- outer -->
+     </div>
+
+ <div class="col-4">
+     <p>Matt</p>
+     <div class="col-md-4">
+     <p>Matt </p>
+     </div>
+     <div class="col-md-4">
+     <p>Matt </p>
+     </div>
+</div> <!-- inner -->
+     </div> <!-- outer -->
+
+
+
+        <div class="col-4">
+    <div class ="intro">
+        
+        <p id="inline">Here is a little bit </p> about myself. </p>
+        
+    </div><!-- intro -->
+    
+    </div> <!-- col -->
+     <div class="col-2">
+    
+        </div>
+    <div class = "col-4">
+    <div class ="about">
+        <p>I graduated from Lasalle University. Here is a lot of blank statements just to see how this space fills up with a lot of text. Being a web developer is such a fun job. I have to go get the laundry. And then we went to the park to look at the fireworks. Bruce Springsteen is a great artist. Is this enough text yet? No so here is some more ramblings that just keep going on, on and on. No oxford commas right?</br></p>
+        <p>Then he continued typing to see how this font would look on his new website.</p>
+        
+
+    </div><!-- about -->
+    
+    
+    
+    
+    </div>
+ 
+    </div><!-- row -->
+    
+    
+</div>
+
+
+
+
+
+<!--- PORTFOLIO HEADER --->
+
+<div class="row">
+    <div class ="container">
+    <div class="row justify-content-center">
+        <div class="header1">
+    <div class="col-6">
+        
+    
+       <p>Portfolio</p>
+        
+    </div><!--col-->
+    </div>
+    </div> <!--container -->
+</div><!--row -->
+
+
+
+<!---TECHNOLOGIES THAT I USE -->
+
+<div class="row">
+    <div class="col-4">
+         <P>SSOME TEXT</P>
+        
+    </div><!--col-->
+    
+</div><!--row -->
+
+
+
+
+
+
+<!---
+
+DEFAULT BOOTSTRAP TEMPLATE 
+
+
+
+<div class="row">
+    <div class="col">
+        
+    </div><!--col--
+    
+</div><!--row -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<?php
+
+get_footer();
