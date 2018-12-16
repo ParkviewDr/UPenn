@@ -1,0 +1,255 @@
+
+
+
+<?php
+
+/*
+	Template Name: Upenn
+*/
+
+
+
+
+
+get_header();
+?>
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Poppins|Raleway" rel="stylesheet"> 
+
+<!-- 
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+
+-->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+<link href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans" rel="stylesheet"> 
+
+
+    <!--- GOOGLE FONTS 
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Noticia Text', serif;
+
+-->
+
+    <style>
+ .top{
+            padding-top:20px;
+            font-size:50px;
+            background:#387CEE;
+            font-family: 'Raleway', sans-serif;
+            color:white;
+            text-align:center;
+        }
+        
+        
+        .outer{
+    
+  height:150px;
+  display: block;
+  position: relative;
+
+}
+
+.outer img {
+  
+  height: auto;
+}
+
+.outer .inner {
+  background: white;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 0;
+  transition: opacity .5s;
+}
+
+.outer .inner p {
+
+  color: black;
+  font-size:20px;
+  line-height: 10px;
+   font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
+
+
+.outer .inner {
+  opacity: .8;
+
+}
+
+
+
+ .intro {
+     
+     font-size:40px;
+     padding-top:50px;
+     font-family: 'Montserrat', sans-serif;
+     text-align:center;
+      letter-spacing:2px;
+     
+     
+ }
+ 
+ #inline {
+     font-style: italic;
+      font-size:50px;
+     padding-top:50px;
+      font-family: 'Poppins', sans-serif;
+     text-align:center;
+     
+ }
+ .about {
+     padding-top:40px;
+     padding-bottom:40px;
+     text-align:center;
+     background:lightgrey;
+     font-style:italic;
+     font-size:18px;
+    
+ }
+ 
+
+ .header1 {
+
+     padding-top:100px;
+     padding-bottom:100px;
+     font-family: 'Poppins', sans-serif;
+     font-size:50px;
+     
+ }
+ 
+ .funding {
+     margin-left:50px;
+      font-family: 'Open Sans', sans-serif;
+      font-size:22px;
+      color:darkblue;
+ }
+ 
+ .read {
+     color:red;
+     font-style:normal;
+ }
+ 
+ .dot {
+     color:darkblue;
+ }
+ 
+ .middle-left {
+     
+     margin-left:50px;
+ }
+ 
+ 
+ .text {
+     margin-left:50px;
+      font-family: 'Open Sans', sans-serif;
+      font-size:16px;
+      
+ }
+</style>
+
+<!--- the overlay that isn't working currently 
+<div class="outer">  --->
+    
+       <img src="http://mmitchelldevelopment.com/banner-image.jpg" class="img-fluid" alt="Responsive image">
+<!---
+ <div class="inner">
+     <p style="display:inline-block; padding:70px 300px;">Some text!</p>
+<p style="display:inline-block; padding-right:300px;">Some text!</p>
+<p style="display:inline-block; padding-right:300px;">Some text!</p>
+</div>
+     </div>
+     
+     
+     --->
+
+
+
+
+
+<div class="about">
+<div class="container-fluid">
+<div class="row">
+    <div class="col-10 offset-1">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <p class="read">Read More</p>
+        
+        <p id="dots">
+        <i class="fas fa-circle style="color:lightblue;"> <i class="fas fa-circle"></i>  <i class="fas fa-circle"></i>  <i class="fas fa-circle"></i></i> </p>
+        </div> <!---about--->
+    </div><!--col-->
+    
+</div><!--row -->
+
+</div> <!--container-->
+
+
+<div class="container-fluid">
+<div class="row">
+    <div class="col-3">
+    <div class="funding">
+    <p><i>FUNDING OPPORTUNITY</i></p>
+    
+    
+    </div> <!-- FUNDING -->
+    
+    
+        <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <p class="read">Read More</p>
+        
+    </div><!--col-->
+
+     <div class="col-3">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <p class="read">Read More</p>
+        
+    </div><!--col-->
+    
+     <div class="col-3">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <p class="read">Read More</p>
+        
+    </div><!--col-->
+    
+</div><!--row -->
+
+</div> <!--container-->
+
+
+
+<!---
+
+DEFAULT BOOTSTRAP TEMPLATE 
+
+
+
+<div class="row">
+    <div class="col">
+        
+    </div><!--col-->
+    
+</div><!--row -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<?php
+
+get_footer();
