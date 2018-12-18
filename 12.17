@@ -160,6 +160,32 @@ padding:10px 0px 20px 20px;
       
       
  }
+ 
+    .quick-title {
+
+      
+      font-size:26px;
+      background-color:#2286d8;
+      color:#0c1d60;
+      font-style:italic;
+      font-weight:600;
+      padding-top:20px;
+      text-align:left;
+      
+      
+      
+ }
+ 
+ 
+ .other-links {
+        padding-top:40px;
+       background-color:#2286d8;
+       font-size:18px;
+       font-weight:bold;
+       text-align:left;
+       color:white;
+     
+ }
  .read {
      color:red;
      font-style:normal;
@@ -200,6 +226,7 @@ padding:10px 0px 20px 20px;
  
  .upcoming {
      margin-top:50px;
+     margin-bottom:100px;
      padding:20px 20px 20px 40px;
      height:450px;
      width:350px;
@@ -221,9 +248,9 @@ padding:10px 0px 20px 20px;
  }
  
  .bottom {
-     height:200px;
      
      background-color:#2286d8;
+     height:300px;
  }
  
  .contact-bold {
@@ -241,6 +268,11 @@ padding:10px 0px 20px 20px;
      color:white;
      font-style:normal;
      font-weight:normal;
+ }
+ 
+ .upcoming-title-b {
+     
+     color:#0c1d60;
  }
 </style>
 
@@ -320,7 +352,10 @@ padding:10px 0px 20px 20px;
     <span class="ingredient">basil</span>
    ---->
      <div class="upcoming">
-     <p class="upcoming-title"><i class="far fa-calendar">&nbsp; &nbsp;</i><span style="border-left:2px solid"</span> <span style="color:#0c1d60;"</span>&nbsp; Upcoming Events</p>
+     
+     
+     
+     <p class="upcoming-title"><i class="far fa-calendar">&nbsp; &nbsp;</i><span style="border-left:2px solid"</span> <span class="upcoming-title-b"</span>&nbsp; Upcoming Events</p>
     <!--- DATES --->
      <p><span class="yellow-dates">05</span>Pulivinar elementum integer enim</br><span class="yellow-dates">Oct</span> neque volutpat ac tincidunt</p>
      <p><span class="yellow-dates">23</span>Pulivinar elementum integer enim</br><span class="yellow-dates">Sep</span> neque volutpat ac tincidunt</p>
@@ -357,22 +392,40 @@ padding:10px 0px 20px 20px;
      
      </span>
      </h1>
-     </div>
-     </div>
-     </div>
-     </div>
+     </div><!--inner-->
+     
+     
+     </div><!--outer-->
     
+     </div><!--col-->
+     <div class="col-3">
+     
+       <div class="quick-title">Quick Links</div>
+       <div class="other-links">
+       <p>BECOME A MEMBER</p>
+       <p>DONATE</p>
+       <p>MAILING LIST</p>
+       <p>SITEMAP</p>
+       
+       
+       </div><!---other links-->
+    </div> <!---col --->
+    
+    
+     <div class="col-3">
+     
+      <p>some text3</p>
+    </div> <!---col --->
     </div><!--col-->
-      <div class="bottom">
+    
       <div class="col-3">
   
     
-<p>some text</p>
-    
+
     
     
     </div>
-        
+        </div>
     </div><!--col-->
   
     
@@ -386,16 +439,12 @@ DEFAULT BOOTSTRAP TEMPLATE
 
 
 
-<div class="row">
-    <div class="col">
-        
-    </div><!--col-->
-    
-</div><!--row -->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
 <?php
 
 get_footer();
