@@ -178,6 +178,7 @@ padding:10px 0px 20px 20px;
  
  
  .other-links {
+    
         padding-top:40px;
        background-color:#2286d8;
        font-size:18px;
@@ -398,7 +399,7 @@ padding:10px 0px 20px 20px;
      </div><!--outer-->
     
      </div><!--col-->
-     <div class="col-3">
+     <div class="col-2">
      
        <div class="quick-title">Quick Links</div>
        <div class="other-links">
@@ -412,9 +413,12 @@ padding:10px 0px 20px 20px;
     </div> <!---col --->
     
     
-     <div class="col-3">
+     <div class="col-2">
      
-      <p>some text3</p>
+      <div class="quick-title"><p>Follow Us</p>
+      <p><i class="fab fa-2x fa-twitter"></i>&nbsp; <i class="fab fa-2x fa-facebook"></i></p>
+      <p><i class="fab fa-2x fa-youtube"></i>&nbsp; <i class="fab fa-2x fa-instagram"></i></p>
+      </div><!---quick title-->
     </div> <!---col --->
     </div><!--col-->
     
