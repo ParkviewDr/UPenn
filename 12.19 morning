@@ -1,0 +1,629 @@
+
+
+<?php
+
+/*
+	Template Name: Upenn
+*/
+
+
+
+
+
+get_header();
+?>
+
+
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+<link href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans" rel="stylesheet"> 
+
+
+    <!--- GOOGLE FONTS 
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Noticia Text', serif;
+
+-->
+
+    <style>
+    
+    /* On screens that are 992px wide or less, the background color is blue 
+@media screen and (max-width: 992px) {
+*/
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    
+  .yellow-dates {
+     
+     color:#d6d01d; 
+     font-size:20px; 
+     font-weight:bold; 
+     text-align:right;
+     
+ }
+ 
+   .title {
+      padding-top:80px;
+      padding-left:20px;
+      font-family: 'Noticia Text', serif;
+      font-size:28px;
+      color:#1853b2;
+      font-weight:bold;
+      font-style:italic;
+      letter-spacing:1.2px;
+      
+ }
+ 
+ 
+  .about {
+     background:lightgrey;
+     font-style:italic;
+     font-size:18px;
+    
+ }
+ 
+ 
+ 
+  }
+  
+  /*start of normal CSS */
+}
+ .top{
+            padding-top:20px;
+            font-size:50px;
+            background:#387CEE;
+            font-family: 'Raleway', sans-serif;
+            color:white;
+            text-align:center;
+        }
+        
+        
+        
+        
+        /* 
+        
+        ==== OVERLAY SECTION ====
+        
+        
+        */
+        .outer{
+    
+  height:250px;
+  width:676px;
+  margin-left:50px;
+  display: block;
+  position: relative;
+
+}
+
+.outer img {
+  
+  height: auto;
+}
+
+.outer .inner {
+  background: #323272;
+  height: 260px;
+  width: 300px;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 0;
+  transition: opacity .8s;
+}
+
+.outer .inner h1 {
+
+  color:#FFC720;
+  font-size:26px;
+  font-weight:bold;
+  font-style:italic;
+    font-family: 'Noticia Text', serif;
+  text-align: left;
+
+padding:10px 0px 20px 20px;
+
+  height:300px;
+  width:300px;
+}
+
+
+.outer .inner {
+  opacity: .8;
+
+}
+
+
+
+ .intro {
+     
+     font-size:40px;
+     padding-top:50px;
+     font-family: 'Montserrat', sans-serif;
+     text-align:center;
+      letter-spacing:2px;
+     
+     
+ }
+ 
+ #inline {
+     font-style: italic;
+      font-size:50px;
+     padding-top:50px;
+      font-family: 'Poppins', sans-serif;
+     text-align:center;
+     
+ }
+ 
+ 
+ /* 
+ 
+ ==== UNDER CAROUSEL ===
+ 
+ */
+ .about {
+    padding:40px 200px 40px 200px;
+     text-align:center;
+     background:lightgrey;
+     font-style:italic;
+     font-size:18px;
+    
+ }
+ 
+  /* 
+ 
+ ==== STYLE OF MY NAME IN THE CAROUSEL SECTION ===
+ 
+ */
+ 
+ .name {
+     position:absolute;
+     top:0;
+     font-family: 'Noticia Text', serif;
+     background:white;
+     width:100%;
+     padding:30px 100px 30px 200px;
+     opacity:.8;
+     
+     
+ }
+  .myname-s {
+   text-align:center;
+     font-size:30px;
+     color:#1853b2;
+     font-weight:italics;
+     font-family: 'Noticia Text', serif;
+ }
+ 
+ .myname {
+   
+     margin-left:30px;
+     border-left:2px solid orange;
+     font-size:50px;
+     padding-left:50px;
+     color:#1853b2;
+     font-weight:italics;
+     font-family: 'Noticia Text', serif;
+ }
+  .search-s{
+    text-align:center;
+     background:white;
+     
+ }
+ 
+ 
+ .search {
+     padding-left:100px;
+     background:white;
+     
+ }
+
+ .header1 {
+
+     padding-top:100px;
+     padding-bottom:100px;
+     font-family: 'Poppins', sans-serif;
+     font-size:50px;
+     
+ }
+  /*
+  ======== TITLES ========== 
+  */
+
+  .title {
+      padding-top:80px;
+      padding-left:20px;
+      margin-left:60px;
+      font-family: 'Noticia Text', serif;
+      font-size:28px;
+      color:#1853b2;
+      font-weight:bold;
+      font-style:italic;
+      letter-spacing:1.2px;
+      
+ }
+
+ 
+   .upcoming-title {
+
+      
+      font-size:26px;
+      background-color:#2286d8;
+      color:#3f3737;
+      font-style:italic;
+      font-weight:600;
+      text-align:center;
+      
+      
+ }
+ 
+    .quick-title {
+
+      
+      font-size:26px;
+      background-color:#2286d8;
+      color:#0c1d60;
+      font-style:italic;
+      font-weight:600;
+      padding-top:20px;
+      text-align:left;
+      
+      
+      
+ }
+ 
+ 
+ .other-links {
+    
+        padding-top:40px;
+       background-color:#2286d8;
+       font-size:18px;
+       font-weight:bold;
+       text-align:left;
+       color:white;
+     
+ }
+ .read {
+     color:red;
+     font-style:normal;
+ }
+ 
+
+ 
+ /* 
+ 
+ === MIDDLE SECTION 
+ 
+ 
+ */
+ 
+ .middle-left {
+     
+     margin-left:50px;
+ }
+ 
+ 
+ .text {
+     margin-left:70px;
+    font-family: 'Open Sans', sans-serif;
+      font-size:14px;
+      padding-bottom:20px;
+ }
+ 
+ 
+ .text-middle {
+     margin-left:40px;
+        font-family: 'Open Sans', sans-serif;
+      font-size:14px;
+      padding-top:130px;
+      padding-bottom:20px;
+ }
+ 
+ #folder {
+     font-size:12px;
+       color:#1853b2;
+       padding-left:25px;
+       
+ }
+ 
+  /* 
+ 
+ ==== UPCOMING DATES SECTION ===
+ 
+ */
+ 
+ .upcoming {
+     margin-top:50px;
+     margin-bottom:100px;
+     padding:20px 20px 20px 40px;
+     height:450px;
+     width:350px;
+     background-color:#2286d8;
+     color:white;
+     font-size:14px;
+    
+     
+ }
+ 
+ .yellow-dates {
+     
+     color:#d6d01d; 
+     font-size:20px; 
+     font-weight:bold; 
+     padding-right:20px;
+     text-align:right;
+     
+ }
+ 
+ .bottom {
+     
+     background-color:#2286d8;
+     height:300px;
+ }
+ 
+ 
+ /*
+ 
+ ==== CONTACT SECTION ====
+ 
+ */
+ 
+ .contact-bold {
+     font-size:16px;
+     color:white;
+     font-style:normal;
+     font-weight:bold;
+     letter-spacing:1.2px;
+       font-family: 'Open Sans', sans-serif;
+ }
+ 
+  .contact-info {
+      line-height:80%;
+     font-size:14px;
+     color:white;
+     font-style:normal;
+     font-weight:normal;
+ }
+ 
+.footer {
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    color:white;
+    font-style:italic;
+    background:#1E4E90;
+    font-size:14px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
+ 
+ 
+</style>
+
+
+ <!-----
+    
+    ==== CAROUSEL ====
+    
+    --->
+
+     
+    
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="http://mmitchelldevelopment.com/banner-image.jpg" alt="First slide">
+    </div>
+       <div class="carousel-item">
+      <img class="d-block w-100" src="http://mmitchelldevelopment.com/banner-image2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="http://mmitchelldevelopment.com/banner-image3.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="http://mmitchelldevelopment.com/banner-image4.jpg" alt="Third slide">
+    </div>
+  </div>
+    <div class="name d-none d-lg-block"> <!--this will hide this portion at mobile size and medium-->
+        <img src="http://mmitchelldevelopment.com/perelman.jpg" class="img-fluid" alt="Responsive image">
+        <span class="myname">Matt Mitchell</span>
+       <span class="search"> <input type="text" placeholder="Search"></span> <span class="read"><i class="fas fa-angle-right"></i></span>
+    </div><!--name-->
+    <div class = "d-block d-sm-none"> <!--- section only visible on mobile --->
+  <div class = "col-sm-3">
+         <span class="myname-s">Matt Mitchell</span>
+       
+     </div> <!--- col-sm-3-->
+     <div class = "col-sm-3">
+         <img src="http://mmitchelldevelopment.com/perelman.jpg" class="img-fluid" alt="Responsive image">
+     </div><!-- col-sm-3-->
+     <div class = "col-sm-3">
+         <span class="search"> <input type="text" placeholder="Search"></span> <span class="read"><i class="fas fa-angle-right"></i></span>
+  </div> <!--- section only visible on mobile --->
+     <div class="about">
+   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not \</p>
+        <p class="read">Read More</p>
+  </div>
+  
+ 
+ 
+</div> <!--carousel-inner--->
+
+
+
+
+ <!-----
+    
+    ==== FUNDING OPPORTUNITES LIST ====
+    
+    --->
+    
+<div class="container-fluid">
+<div class="row">
+    <div class="col-md-4">
+    
+    
+   
+    <p class="title"> <i class="fas fa-certificate"></i>&nbsp;&nbsp; <span style="border-left:2px solid"</span> &nbsp;&nbsp; Funding Opportunities</p>
+    
+
+        <div class="text"><ul>
+        <li>Congue en Funding - Libero Juston Neque aliquam</li></br>
+        <li>Congue en Funding - Pretium Quam</li></br>
+        <li>Facuibus <a href="http://mmitchellwebdesign.com/new/index.php/home/">Link Here</a> </li></br>
+        <li>TUltrices Neque Ornare Aenea</li></br>
+        <li>Pulvinar laboris nisi ut aliquip occaecat nonuite ea commodo consequat</li></br>
+        <li>Tempus quam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li></br>
+   </ul>
+   
+   <p id="folder"><i class="fas fa-folder-open"></i>&nbsp; &nbsp;&nbsp;<span style="border-left:2px solid;"</span> <span style="color:#b21010; font-weight:bold;"</span> &nbsp;&nbsp; MORE OPPORTUNITIES</p>
+    
+    </div><!--col-->
+</div> <!--text-->
+     <div class="col-md-4">
+           <div class="text-middle"><ul>
+        <li>Congue en Funding - Libero Juston Neque aliquam</li></br>
+        <li>Congue en Funding - Pretium Quam</li></br>
+        <li>Facuibus  <a href="http://mmitchellwebdesign.com/new/index.php/home/">Link Here</a> </li></br>
+        <li>TUltrices Neque Ornare Aenea</li></br>
+        <li>Pulvinar laboris nisi ut aliquip occaecat nonuite ea commodo consequat</li></br>
+        <li>Tempus quam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</li></br>
+   </ul>
+        </div>
+    </div><!--col-->
+    
+    
+    
+    <!-----
+    
+    ==== UPCOMING EVENTS ====
+    
+    --->
+     <div class="col-4">
+     <div class="upcoming">
+     
+     
+     
+     <p class="upcoming-title"><i class="far fa-calendar">&nbsp; &nbsp;</i><span style="border-left:2px solid"</span> <span class="upcoming-title-b"</span>&nbsp; Upcoming Events</p>
+    <!--- DATES --->
+     <p><span class="yellow-dates">05</span>Pulivinar elementum integer enim</br><span class="yellow-dates">Oct</span> neque volutpat ac tincidunt</p>
+     <p><span class="yellow-dates">23</span>Pulivinar elementum integer enim</br><span class="yellow-dates">Sep</span> neque volutpat ac tincidunt</p>
+      <p><span class="yellow-dates">19</span>Pulivinar elementum integer enim</br><span class="yellow-dates">Sep</span> neque volutpat ac tincidunt</p>
+       <p><span class="yellow-dates">05</span>Pulivinar elementum integer enim</br><span class="yellow-dates">Sep</span> neque volutpat ac tincidunt</p>
+    
+  </br>
+     
+      <p><i class="far fa-calendar">&nbsp; &nbsp;</i><span style="border-left:2px solid"</span> <span style="color:#0c1d60;"</span>&nbsp; Upcoming Events</p>
+        </div>
+    </div><!--col-->
+    
+</div><!--row -->
+
+</div> <!--container-->
+
+
+  <!-----
+    
+    ==== CONTACT SECTION ====
+    
+    --->
+<div class="d-sm-none d-md-block">
+   <div class="bottom">
+<div class="row">
+    <div class="col-sm-6">
+ 
+<div class="outer"> 
+    
+      <img src="http://mmitchelldevelopment.com/map.jpg" class="img-fluid" alt="Responsive image">
+
+ <div class="inner">
+     <h1>Contact Us </br></br>
+    <span class="contact-info"><p>3620 Hamilton Walk</p>
+     
+     <p>John Morgan Bldg, Rm. 240,</p> <p>Philadelphia, PA 19104</p></span>
+     <span class="contact-bold">
+     <p>DIRECTIONS</p>
+     <p>EMAIL</p>
+     <p>CALL</p>
+     
+     </span>
+     </h1>
+     </div><!--inner-->
+     
+     
+     </div><!--outer-->
+    
+     </div><!--col-->
+     
+     
+       <!-----
+    
+    ==== QUICK LINKS ====
+    
+    --->
+     <div class="col-sm-2">
+     
+       <div class="quick-title">Quick Links</div>
+       <div class="other-links">
+       <p>BECOME A MEMBER</p>
+       <p>DONATE</p>
+       <p>MAILING LIST</p>
+       <p>SITEMAP</p>
+       
+       
+       </div><!---other links-->
+    </div> <!---col --->
+    
+    
+     <div class="col-sm-2">
+     
+      <div class="quick-title"><p>Follow Us</p>
+      <p><i class="fab fa-2x fa-twitter"></i>&nbsp; <i class="fab fa-2x fa-facebook"></i></p>
+      <p><i class="fab fa-2x fa-youtube"></i>&nbsp; <i class="fab fa-2x fa-instagram"></i></p>
+      </div><!---quick title-->
+    </div> <!---col --->
+    </div><!--col-->
+    
+      <div class="col-3">
+  
+    
+
+    
+    
+    </div>
+        </div>
+    </div><!--col-->
+  </div>
+    
+    
+</div><!--row -->
+
+
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<?php
+
+get_footer();
